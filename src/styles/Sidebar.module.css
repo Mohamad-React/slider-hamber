@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 20px;
+    position: fixed;
+
+
+}
+
+.myicon {
+
+    background-color: blueviolet;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 40px;
+    justify-content: center;
+    height: 40px;
+    cursor: pointer;
+
+
+}
+
+
+.hamber{
+    color: white;
+}
+.hamber:hover{
+    color: rgb(54, 49, 18);
+}
+
+.conslider {
+    transform: translateX(100%);
+    transition: all .3s ease-in-out;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(158, 7, 145);
+    height: 100vh;
+    width: 200px;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.opneconslider {
+    transform: translateX(0%);
+    transition: all .3s ease-in-out;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(158, 7, 145);
+    height: 100vh;
+    width: 200px;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.mainslide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.backicon {
+    padding: 8px;
+    background-color: #68366c;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backicon button {
+    padding: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+
+
+}
+
+.myicon2{
+    color: #f9f9f9;
+    font-size: 30px;
+
+}
+.myicon2:hover{
+    color: #5ae0f1;
+}
+
+
+

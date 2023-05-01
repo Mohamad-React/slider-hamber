@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.container ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 69px;
+    list-style: none;
+
+}
+
+.container li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container li a svg {
+    margin-left:10px
+}
+
